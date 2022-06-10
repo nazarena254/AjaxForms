@@ -4,4 +4,5 @@ from . import views
 
 urlpatterns=[
     path('',views.index , name="index"),
+    path('post/ajax/friend',views.postFriend, name="post_friend")
 ]
