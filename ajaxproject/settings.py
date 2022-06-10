@@ -136,3 +136,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Configure Django App settings to be used by Heroku
 django_heroku.settings(locals())
+
