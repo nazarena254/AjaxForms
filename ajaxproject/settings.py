@@ -31,6 +31,7 @@ MODE=config("MODE", default="dev")
 DISABLE_COLLECTSTATIC=config('DISABLE_COLLECTSTATIC')
 ALLOWED_HOSTS = ["*"]
 
+
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
