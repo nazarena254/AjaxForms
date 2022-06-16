@@ -28,6 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 MODE=config("MODE", default="dev")
 DISABLE_COLLECTSTATIC=config('DISABLE_COLLECTSTATIC')
 ALLOWED_HOSTS = ["*"]
