@@ -3,8 +3,8 @@
 {% block content %}
     <div class="container-fluid">
         <form>
-            <div class="row">
-                {% csrf_token %}
+            <div class="row p-5">
+                {% csrf_token %}                
                 {% for field in form %}
                     <div class="form-group col-md-4">
                         <label class="col-12">{{ field.label }}</label>
