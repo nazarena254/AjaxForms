@@ -1,13 +1,15 @@
 body{
-font-family: 'Poppins', sans-serif;
-/* font-family: 'Aclonica', sans-serif;
-font-family: 'El Messiri', sans-serif;
-font-family: 'Lobster Two', cursive;  
-font-family: 'Righteous', cursive; */
-scroll-behavior: smooth;
-background-image: url(https://images.unsplash.com/photo-1650370363832-c6a735a7abf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80);
-background-position: center center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    /* 
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Lobster Two', cursive;  
+    font-family: 'Righteous', cursive; 
+    */
+    scroll-behavior: smooth;
+    background-image: url(https://images.unsplash.com/photo-1650370363832-c6a735a7abf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
  }
