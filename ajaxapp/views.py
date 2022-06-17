@@ -4,14 +4,10 @@ from django.http import HttpResponse, JsonResponse
 from .forms import FriendForm
 from .models import Friend
 from django.core import serializers
+from django.template import RequestContext # fix csrf error
 
 #When a client requests for a resource, a HttpRequest object is created and 
 # correspond view function is called that returns HttpResponse object
-
-# Create your views here.
-# def index(request):
-#     return HttpResponse('Hello there')
-
 def indexView(request):
     form = FriendForm
     friends = Friend.objects.all()
