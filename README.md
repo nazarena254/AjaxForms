@@ -7,12 +7,13 @@ Its a simple ajax form that allows user to enter details.
 Nazarena Wambura.</br>
 [Github Account](https://github.com/nazarena254)
 
-#### Resources
-[Plural site](https://app.pluralsight.com/guides/work-with-ajax-django)
-[Django AJAX csrf](https://docs.djangoproject.com/en/2.2/ref/csrf/#ajax)
+### Resources
+1. [Plural site](https://app.pluralsight.com/guides/work-with-ajax-django)
+2. [Django AJAX csrf](https://docs.djangoproject.com/en/2.2/ref/csrf/#ajax)
 
-<!-- ### Homepage
-![nazawwards](./awwardsapp/static/images/awwards.png) -->
+
+### Homepage
+![Ajax-Forms](homepg.png)
 
 ### Setup/Installation Requirements
 1. Create a folder and cd to it.
